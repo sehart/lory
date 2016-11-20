@@ -76,6 +76,13 @@ export default {
     classNameActiveSlide: 'active',
 
     /**
+     * class name for cloned slides
+     * if emptyString then no class is set
+     * @classNameClonedSlides {string}
+     */
+    classNameClonedSlides: 'clone',
+
+    /**
      * enables mouse events for swiping on desktop devices
      * @enableMouseEvents {boolean}
      */
